@@ -79,7 +79,10 @@
       "Bash(rmdir assets *)",
       "Bash(/c/Users/lenovo/Desktop/p2claude/.tools/mysql/bin/mysql.exe -h 127.0.0.1 -P 3306 -u pentacodes_app -pdevpassword123 pentacodes -e 'SELECT id, name, source_page FROM leads;')",
       "Bash(/c/Users/lenovo/Desktop/p2claude/.tools/mysql/bin/mysql.exe -h 127.0.0.1 -P 3306 -u pentacodes_app -pdevpassword123 pentacodes -e 'SELECT id, name FROM leads;')",
-      "Bash(/c/Users/lenovo/Desktop/p2claude/.tools/mysql/bin/mysql.exe -h 127.0.0.1 -P 3306 -u pentacodes_app -pdevpassword123 pentacodes -e 'SELECT id, name, source_page FROM leads; DELETE FROM leads;')"
+      "Bash(/c/Users/lenovo/Desktop/p2claude/.tools/mysql/bin/mysql.exe -h 127.0.0.1 -P 3306 -u pentacodes_app -pdevpassword123 pentacodes -e 'SELECT id, name, source_page FROM leads; DELETE FROM leads;')",
+      "Bash(mv side-share.svg side-share-tmp.svg)",
+      "Bash(mv side-phone.svg side-share.svg)",
+      "Bash(mv side-share-tmp.svg side-phone.svg)"
     ]
   }
 }
