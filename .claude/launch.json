@@ -1,0 +1,26 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "pentacoden",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "3000"],
+      "cwd": "frontend",
+      "port": 3000
+    },
+    {
+      "name": "pentacoden-server",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["server.js"],
+      "cwd": "server",
+      "port": 3001
+    },
+    {
+      "name": "pentacoden-laravel",
+      "runtimeExecutable": "C:\\Users\\lenovo\\Desktop\\p2claude\\.tools\\php\\php.exe",
+      "runtimeArgs": ["artisan", "serve", "--host=127.0.0.1", "--port=8000"],
+      "cwd": "backend",
+      "port": 8000
+    }
+  ]
+}

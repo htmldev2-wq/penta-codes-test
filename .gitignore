@@ -1,0 +1,23 @@
+# Local-only dev tooling (portable PHP/Composer/MySQL) — not for deployment, ~1.3GB
+.tools/
+
+# Backup of pre-optimization original images — not needed in the repo
+images-original-backup/
+
+# Legacy Node backend — superseded by backend/ (Laravel). Kept locally for
+# reference only; not part of the deploy.
+server/
+
+# backend/ (Laravel)
+backend/vendor/
+backend/node_modules/
+backend/.env
+backend/storage/*.key
+backend/storage/logs/*.log
+backend/storage/framework/cache/data/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/bootstrap/cache/*.php
+backend/database/*.sqlite
+
+# frontend/ — nothing to ignore currently, static site only
