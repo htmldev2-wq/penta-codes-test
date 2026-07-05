@@ -851,11 +851,12 @@ button[disabled] { opacity: 0.6; cursor: not-allowed; }
     align-items: flex-start;
     padding: 20px 24px 30px;
     box-shadow: 0 20px 30px rgba(0,0,0,0.1);
-    transform: translateY(-130%);
-    transition: transform 0.35s ease;
+    transform: translateY(calc(-100% - 50px));
+    visibility: hidden;
+    transition: transform 0.35s ease, visibility 0s linear 0.35s;
     z-index: 30;
   }
-  .main-nav.is-open { transform: translateY(0); }
+  .main-nav.is-open { transform: translateY(0); visibility: visible; transition: transform 0.35s ease; }
   .main-nav__list {
     flex-direction: column;
     align-items: flex-start;

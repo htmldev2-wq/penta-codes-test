@@ -1080,14 +1080,14 @@
     font-weight: 400;
   }
   .home-news { padding: 42px 16px; }
-  .tst-card { flex-basis: 90%; }
+  .tst-card { flex-basis: 100%; }
   .tst-card__role {
     white-space: normal;
     letter-spacing: 2px;
     line-height: 24px;
   }
   .tst-card__quote { left: 23px; }
-  .post-card { flex-basis: 252px; width: 252px; height: 370px; border-radius: 16px; }
+  .post-card { flex-basis: 100%; width: 100%; height: 370px; border-radius: 16px; }
   .post-card__img { height: 116px; border-radius: 8px; }
   .post-card__date {
     width: 98px;
